@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   operations_bis_checker.c                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: abadidi <abadidi@student.42.fr>            +#+  +:+       +#+        */
+/*   By: abadidi < abadidi@student.1337.ma>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/22 21:36:21 by abadidi           #+#    #+#             */
-/*   Updated: 2022/02/22 21:36:22 by abadidi          ###   ########.fr       */
+/*   Updated: 2022/02/23 09:47:27 by abadidi          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,6 +16,8 @@ void	rotate_stack(t_stack **s)
 {
 	t_stack	*tmp;
 
+	if (*s == NULL)
+		return ;
 	tmp = *s;
 	while (tmp->next)
 	{
@@ -31,6 +33,8 @@ void	revers_rotate(t_stack **s)
 	t_stack	*last;
 	t_stack	*before_last;
 
+	if (*s == NULL)
+		return ;
 	last = *s;
 	while (last->next)
 	{

@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   checks_checker.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: abadidi <abadidi@student.42.fr>            +#+  +:+       +#+        */
+/*   By: abadidi < abadidi@student.1337.ma>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/22 21:35:55 by abadidi           #+#    #+#             */
-/*   Updated: 2022/02/22 21:53:45 by abadidi          ###   ########.fr       */
+/*   Updated: 2022/02/23 09:42:36 by abadidi          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,7 +25,7 @@ int	check(char *str)
 			return (0);
 		i++;
 	}
-	size = strlen(str);
+	size = ft_strlen(str);
 	if (size > 11)
 		return (0);
 	atoi = ft_atoi(str);

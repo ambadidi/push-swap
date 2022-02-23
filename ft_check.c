@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_check.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: abadidi <abadidi@student.42.fr>            +#+  +:+       +#+        */
+/*   By: abadidi < abadidi@student.1337.ma>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/11 19:57:36 by abadidi           #+#    #+#             */
-/*   Updated: 2021/12/12 03:21:02 by abadidi          ###   ########.fr       */
+/*   Updated: 2022/02/23 09:42:36 by abadidi          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,7 +39,7 @@ int	check(char *str)
 			return (0);
 		i++;
 	}
-	size = strlen(str);
+	size = ft_strlen(str);
 	if (size > 11)
 		return (0);
 	atoi = ft_atoi(str);

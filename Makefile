@@ -3,10 +3,10 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: abadidi <abadidi@student.42.fr>            +#+  +:+       +#+         #
+#    By: abadidi < abadidi@student.1337.ma>         +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/11/29 18:43:24 by abadidi           #+#    #+#              #
-#    Updated: 2022/02/22 21:59:41 by abadidi          ###   ########.fr        #
+#    Updated: 2022/02/23 10:14:24 by abadidi          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -14,9 +14,10 @@ NAME = push_swap
 NAME2 = checker
 
 SRCS = ft_check.c ft_sort_bis.c ft_utils_bis.c ft_operations.c ft_sort_quater.c \
-		ft_operations_bis.c ft_sort_tiers.c ft_print.c ft_tools.c ft_sort.c ft_utils.c
+		ft_operations_bis.c ft_sort_tiers.c ft_print.c ft_tools.c ft_sort.c ft_utils.c checker_help_checker.c
 
-SRC2 = checker_checker.c   checks_checker.c  operations_checker.c  operations_bis_checker.c utils_checker.c ft_utils.c 
+SRC2 = checker_checker.c   checks_checker.c  operations_checker.c \
+		checker_help_bis_checker.c checker_help_checker.c operations_bis_checker.c utils_checker.c ft_utils.c 
 
 FLAGS = -Wall -Wextra -Werror -c
 

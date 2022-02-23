@@ -101,4 +101,8 @@ void		rotate_stack(t_stack **s);
 void		revers_rotate(t_stack **s);
 int			findsmall(t_stack *a, int *index);
 int			stack_size(t_stack *s);
+int			ft_strlen(char *str);
+int			ft_strcmp(const char *s1, const char *s2);
+void		fill_tab(int *tab, t_stack **a, int argc, char **argv);
+char		*get_next_line(int fd);
 #endif
